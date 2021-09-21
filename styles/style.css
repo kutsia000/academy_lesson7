@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.logo-container {
+    width: 195px;
+    height: 39px;
+    position: absolute;
+    top:67px;
+    left: 132px;
+}
+
+.navigation {
+    width: 581px;
+    height: 24px;
+    margin-top: 82px;
+    margin-left: 725px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.navigation li a{
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.section {
+    margin-top: 267px;
+}
+
+.main-container {
+    width: 1708px;
+    height: 527px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text-wrapper {
+    width: 602px;
+    height: 509px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 801px;
+    height: 527px;
+}
+
+.text-title-container {
+    width: 600px;
+    height: 203px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-title-container h3 {
+    font-size: 78px;
+    font-weight: bold;
+    color: #534D4D;
+}
+
+.text-paragraph-container {
+    width: 602px;
+    height: 103px;
+}
+
+.text-paragraph-container span {
+    font-size: 22px;
+    color: #534D4D
+}
+
+.button-primary {
+    width: 263.67px;
+    height: 76.77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 38px;
+    background-color: #3D37F1;
+    border-color: #3D37F1;
+}
+
+.button-content-container {
+    width: 161px;
+    height: 31px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-icon {
+    color: white;
+}
+
+.button-text {
+    font-size: 23px;
+    color: #FFF;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1169px;
+    height: 1224px;
+    margin: 0 auto;
+}
+
+.text-block-container {
+    width: 712px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about {
+    margin-top: 87px;
+    font-family: 'Lato', sans-serif;
+}
+
+.mini-title-container {
+    width: 141px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3D37F1;
+}
+
+.title-container {
+    width: 578px;
+    height: 48px;
+    font-size: 40px;
+    color: #5A5454;
+}
+
+.description-container {
+    width: 712px;
+    height: 85px;
+    font-size: 18px;
+    color: #747474;
+    text-align: center;
+}
+
+.cards-container {
+    width: 1169px;
+    height: 962px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 370px;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-web-ui {
+    background: linear-gradient(#FBBA77,#DFA871);
+}
+
+.card-redesign {
+    background: linear-gradient(#41EAE3,#2293B7);
+}
+
+.card-app-ui {
+    background: linear-gradient(#69529F,#463864);
+}
+
+.card-mobile-app-ui {
+    background: linear-gradient(#4386D2,#0962C5);
+}
+
+.card-web-app-ui {
+    background: linear-gradient(#A5A2F6,#564FD6);
+}
+
+.card-web-elements {
+    background: linear-gradient(#FF8088,#984141);
+}
+
+.card-image-container {
+    width: 100px;
+    height: 100px;
+}
+
+.card-text-container {
+    width: 370px;
+    height: 102px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title-container {
+    width: 106px;
+    height: 27px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card-description-container {
+    width: 328px;
+    height: 62px;
+    font-size: 16px;
+}
+
+.button-readmore-fill {
+    width: 131px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-readmore-fill span {
+    color: #4B647E;
+    font-size: 15px;
+}
+
+.button-readmore {
+    width: 131px;
+    height: 45px;
+    border: 2px solid #FFFFFF;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-readmore span {
+    color: #FFFFFF;
+    font-size: 15px;
+}
