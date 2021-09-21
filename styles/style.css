@@ -169,6 +169,10 @@
     align-items: center;
 }
 
+.card:hover {
+    box-shadow: 3px 4px #707070;
+}
+
 .card-web-ui {
     background: linear-gradient(#FBBA77,#DFA871);
 }
